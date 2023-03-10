@@ -5,7 +5,7 @@ is of this exact structure (with exact naming):
     | inverted_index.py
     | join.py
     | similarities.py
-| written_questions.pdf
+| .pdf
 
 
 This code is inspired by the submission zip file created by Professor
@@ -57,7 +57,7 @@ def main():
         sys.exit()
 
     # Check if there are the right files
-    writeup_path = "written_questions.pdf"
+    writeup_path = "writeup.txt"
     if not os.path.exists(writeup_path):
         failed = True
         print("Issue: This directory does not contain '{}'.".format(writeup_path))
